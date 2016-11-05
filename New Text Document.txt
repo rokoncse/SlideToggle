@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/26672241/remove-class-after-click-outside-the-div

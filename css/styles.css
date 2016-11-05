@@ -1,0 +1,39 @@
+.container {
+  position: relative;
+  height: 120px;
+}
+body {
+  overflow: hidden;
+}
+.main {
+  display: block;
+  font-size: 23px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  z-index: 9;
+  border-radius: 0px;
+}
+.menu {
+  background: #aaaaaa none repeat scroll 0 0;
+  opacity:0;
+  margin-left: 0;
+  margin-top: -1px;
+  width: calc(100% - 30px);
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  top: -56px;
+}
+.menu.showMenu {
+  opacity: 1;
+  top: 36px;
+  transition: top 0.3s ease-in-out;  
+}
+.menu li a {
+  color: #000000;
+  display: block;
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 27px;
+  text-align: center;
+}
